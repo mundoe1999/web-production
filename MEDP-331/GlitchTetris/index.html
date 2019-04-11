@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Introduction page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="Normal">
+      <h1 style="font-size:4em">Welcome to Glitch Tetris</h1>
+      <button type="play" name="button" onclick="location.href=`HowToPlay.html`">Play Now!</button>
+      <h2>About this assignment</h2>
+      <div id = "about" style="padding: 1em"></div>
+    </div>
+
+  </body>
+
+  <script language = "javascript" >
+    (function() {
+      'use strict';
+  var about = document.getElementById('about');
+  var request = new XMLHttpRequest();
+
+  request.onreadystatechange = function() {
+  if(request.readyState === 4) {
+    // add a border
+    // check if the request is successful
+    if(request.status === 200) {
+      // update the HTML of the element
+      about.innerHTML = request.responseText;
+    } else {
+      // otherwise display an error message
+      about.innerHTML = 'An error occurred during your request: ' +  request.status + ' ' + request.statusText;
+    }
+
+  }
+}
+
+request.open('Get', './about.txt');
+request.send();
+  })();
+  </script>
+</html>

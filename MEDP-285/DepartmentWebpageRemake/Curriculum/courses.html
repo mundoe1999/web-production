@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSCI Courses</title>
+    <meta charset="utf-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <meta name = "description" content = "Home Page for the Department of Computer Science at Hunter College">
+    <meta name = "author" content = "Esteban Mundo">
+    <link rel="shortcut icon" type="image/gif" href="../img/ico.gif"/>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
+      <a class="navbar-brand" href="http://www.hunter.cuny.edu/main/">Computer Science</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+
+          <!-- About Dropdown menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="aboutList" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="aboutList">
+              <a class="dropdown-item abar" href="../About/about.html">About CS</a>
+              <a class="dropdown-item abar" href="../About/faculty.html">Faculty and Staff</a>
+              <a class="dropdown-item abar" href="../About/part-time.html">Part time Faculty</a>
+              <a class="dropdown-item" href="../About/facilities.html">Facilities</a>
+            </div>
+          </li>
+
+          <!-- Curriculum Dropdown menu-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="curriculumList" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Curriculum
+            </a>
+            <div class="dropdown-menu" aria-labelledby="curriculumList">
+              <a class="dropdown-item abar" href="./undergraduate_program.html">Undergraduate Program</a>
+              <a class="dropdown-item abar active" href="./courses.html">Courses</a>
+              <a class="dropdown-item abar" href="https://gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Doctoral-Programs/Computer-Science/Program">CUNY Graduate Program</a>
+              <a class="dropdown-item" href="./research.html">Research at Hunter</a>
+            </div>
+          </li>
+
+          <!-- Students Dropdown menu-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="studentsList" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              For Students
+            </a>
+            <div class="dropdown-menu" aria-labelledby="studentsList">
+              <a class="dropdown-item abar" href="../ForStudents/faqs.html">FAQs</a>
+              <a class="dropdown-item abar" href="../ForStudents/test_out.html">Test Out</a>
+              <a class="dropdown-item" href="../ForStudents/internship.html">Internship and Work Opportunities</a>
+            </div>
+          </li>
+
+          <!-- Students Dropdown menu-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="newsList" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              News
+            </a>
+            <div class="dropdown-menu" aria-labelledby="newsList">
+              <a class="dropdown-item abar" href="../News/events.html">Events</a>
+              <a class="dropdown-item" href="../News/archives.html">Archives</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../ContactUs.html">Contact us</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+                <img src="img/courses.jpg" alt="" class="img-header">
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3"></div>
+
+      <div class="col-sm-6">
+        <h1>Courses</h1>
+        <hr>
+        <p>
+          Below is a list of classes that we offer within the Computer Science department.
+          To view the latest courses, <a href="http://catalog.hunter.cuny.edu">visit the Hunter Catalog webpage.</a>
+        </p>
+        <p>
+          <ul>
+            <li><a href="#level100">Level 100 Courses</a></li>
+            <li><a href="#level200">Level 200 Courses</a></li>
+            <li><a href="#level300">Level 300 Courses</a></li>
+            <li><a href="#level400">Level 400 Courses</a></li>
+          </ul>
+        </p>
+      </div>
+
+      <div class="col-sm-3"></div>
+    </div>
+
+
+<div class="row">
+  <div class="col-sm-3"></div>
+
+
+      <div class="col-sm-6">
+        <hr class="longer" id="level100">
+        <h3>Level 100 Courses</h3>
+        <div class="accordion" id="Level100Courses">
+
+        <!-- CSCI 11500 - Computer Technology in Childhood Education -->
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="width:100%">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 11500 - Computer Technology in Childhood Education
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Level100Courses">
+            <div class="card-body">
+              Open only to students in QUEST program. Students learn to use a number of software tools and applications that can be infused into the curriculum of the elementary school. Includes a focus on information retrieval using Internet resources and use of such application packages as Miosoft Excel, Miosoft Power Point, Inspiration and Timeliner.
+              <br>prereq or coreq: QSTA 40000
+              <br>3 hrs (1 lec, 2 lab)
+              <br>2 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 12000 - Introduction to Computers-->
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <div style="white-space:normal">
+                  CSCI 12000 - Introduction to Computers
+                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#Level100Courses">
+            <div class="card-body">
+              <strong>Hunter Core</strong>
+              <br>Scientific World (SW)
+              <br><strong>GER</strong>
+              <br>2/E
+              <br>
+              <br>Intended for non-majors. Basic concepts of computer technology.
+              Principles of hardware operation, software and networking.
+              Roles of computers in society, including ethical and legal issues.
+              <strong>This course cannot be counted towards the CSCI major.</strong>
+              <br>prereq: none
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 12100 - Computers and Money: Quantitative Reasoning in Context-->
+        <div class="card">
+          <div class="card-header" id="heading03" >
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse03" aria-expanded="false" aria-controls="collapse03">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 12100 - Computers and Money: Quantitative Reasoning in Context
+                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapse03" class="collapse" aria-labelledby="heading03" data-parent="#Level100Courses">
+            <div class="card-body">
+              <strong>Hunter Core</strong>
+              <br>Math and Quantitative Reasoning (MQR)
+              <br><strong>GER</strong>
+              <br>1/B
+              <br>
+              <br>Quantitative reasoning tackled from a computer based perspective
+              and focusing on practical financial topics-stocks, gambling,
+              inflation, diversification, taxes, hedging, saving, real estate,
+              retirement and others. Students take a hands-on, spreadsheet- based
+              approach to understanding issues of money and personal finance.
+              <strong>This course cannot be counted towards the CSCI major.</strong>
+              <br>prereq: none
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- CSCI 12700 - Introduction to Computer Science (STEM)-->
+        <div class="card">
+          <div class="card-header" id="heading04">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse04" aria-expanded="false" aria-controls="collapse04">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 12700 - Introduction to Computer Science (STEM)
+                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapse04" class="collapse" aria-labelledby="heading04" data-parent="#Level100Courses">
+            <div class="card-body">
+              <strong>Hunter Core</strong>
+              <br>Scientific World (SW)
+              <br><strong>GER</strong>
+              <br>2/E (Non lab course)
+              <br>
+              <br>This course presents an overview of computer science (CS) with an
+              emphasis on problem-solving and computational thinking through ‘coding’:
+              computer programming for beginners. Other topics include: organization of
+              hardware, software, and how information is structured on contemporary computing
+              devices.
+              <strong>This course is pre-requisite to several introductory core courses in the CS Major.
+              The course is also required for the CS minor. MATH 12500 or higher is strongly
+              recommended as a co-req for intended Majors.</strong>
+              <br>prereq: none
+              <br>3 hrs  (1.5 hrs lecture, 1.5 hrs recitation)
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 13200 - Practical UNIX and Programming, with Lab-->
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <div style="white-space:normal">
+                  CSCI 13200 - Practical UNIX and Programming, with Lab
+                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#Level100Courses">
+            <div class="card-body">
+              <strong>Hunter Core</strong>
+              <br>Scientific World (SW)
+              <br><strong>GER</strong>
+              <br>2/E
+              <br>
+              <br>An introduction to computer programming and the UNIX operating
+              system using Perl. Conceptual overview of the UNIX operating system
+              and programming environment, a practical introduction to shell programming,
+              and the use of UNIX filters and utilities. A pragmatic course with an
+              emphasis on skills acquisition.
+              <strong>This course cannot be counted towards the CSCI major.</strong>
+              <br>prereq: none
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>        <!-- CSCI 13300 - Programming for Everyone-->
+        <div class="card">
+          <div class="card-header" id="heading05" >
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse05" aria-expanded="false" aria-controls="collapse05">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 13300 - Programming for Everyone
+                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapse05" class="collapse" aria-labelledby="heading05" data-parent="#Level100Courses">
+            <div class="card-body">
+              <strong>Hunter Core</strong>
+              <br>Scientific World (SW)
+              <br><strong>GER</strong>
+              <br>2/E
+              <br>
+              <br>A comprehensive practical course in programming that concentrates
+              on producing working software for games, simulations, animations,
+              data manipulations, interacting with the Internet, graphical user
+              interfaces and many other application areas. No programming experience
+              is necessary. This course is required for Computer Science minors.
+              <strong>This course does not count toward the computer science major.</strong>
+              <br>prereq: none
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 13500 - Software Analysis and Design I-->
+        <div class="card">
+          <div class="card-header" id="heading06"  >
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse06" aria-expanded="false" aria-controls="collapse06">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 13500 - Software Analysis and Design I
+                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapse06" class="collapse" aria-labelledby="heading06" data-parent="#Level100Courses">
+            <div class="card-body">
+              This first course for prospective computer science majors and minors
+              concentrates on problem-solving techniques using a high-level programming
+              language. The course includes a brief overview of computer systems.
+              <br>prereq: CSCI 12700
+              <br>coreq: CSCI 13600
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 13600 - Supervised Programming Lab-->
+        <div class="card">
+          <div class="card-header" id="heading07"   >
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse07" aria-expanded="false" aria-controls="collapse07">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 13600 - Supervised Programming Lab
+                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapse07" class="collapse" aria-labelledby="heading07" data-parent="#Level100Courses">
+            <div class="card-body">
+              Students work in small teams to complete weekly programming assignments under
+              he supervision of an instructor. Assignments are at the level of material covered
+              in CSCI 135 and CSCI 127 though this is not a recitation or review section for
+              either course. Emphasis is on solving problems in a cooperative programming environment.
+              <strong>This course does not count toward the computer science major.</strong>
+              <br>coreq: CSCI 13500
+              <br>2 hrs
+              <br>1 cr.
+            </div>
+          </div>
+        </div>
+
+        <!--CSCI 15000 - Discrete Structures-->
+        <div class="card">
+          <div class="card-header" id="heading08"   >
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse08" aria-expanded="false" aria-controls="collapse08">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 15000 - Discrete Structures
+                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapse08" class="collapse" aria-labelledby="heading08" data-parent="#Level100Courses">
+            <div class="card-body">
+              Mathematical background required for computer science. Sets, relations,
+              cardinality, propositional calculus, discrete functions, truth tables,
+              induction, combinatorics.
+              <br>prereq: MATH 12500, 15000 or 15500
+              <br>4 hrs (3 lec 1 Rec)
+              <br>4 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 16000 - Computer Architecture I-->
+        <div class="card">
+          <div class="card-header" id="heading09"  >
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse09" aria-expanded="false" aria-controls="collapse09">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 16000 - Computer Architecture I
+                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapse09" class="collapse" aria-labelledby="heading09" data-parent="#Level100Courses">
+            <div class="card-body">
+              <strong>GER</strong>
+              <br>3/B
+              <br>
+              <br>Boolean algebra, data representation, combina­tional circuits and minimization,
+              sequential cir­cuits.
+              <br>prereq: CSCI 12700, CSCI 15000
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 17200 - Topics in Creative Problem Solving-->
+        <div class="card">
+          <div class="card-header" id="heading10" >
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 17200 - Topics in Creative Problem Solving
+                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#Level100Courses">
+            <div class="card-body">
+              CSCI 172 is a pass/fail (CR/NC) faculty-supervised workshop that meets ten times per semester.
+              Each workshop explores a different applied topic in computer science. An undergraduate peer
+              leader presents slides, guides discussions, and engages the participants in activities that
+              emphasize collaborative problem solving. This course explores the role of teamwork and in-class
+              activities to improve student retention, with particular interest in underrepresented populations in
+              computer science.
+              <br>
+              <br>Special conditions: The course meets 10 times for 1 hour 15 minutes (75 minutes). Adjusted
+              for credit hours, the semester total is the 15 hours required for a 1-credit course. The class
+              meets on the bell schedule for ten 75-minute sessions per semester. The special conditions are
+              that CSCI 172 meets once rather than twice a week and meets during only ten of the 15 weeks
+              of the semester.
+              <br>prereq: none
+              <br>1 hrs
+              <br>1 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 18100-18300 - Independent Workshop-->
+        <div class="card">
+          <div class="card-header" id="heading11" >
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 18100-18300 - Independent Workshop
+                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#Level100Courses">
+            <div class="card-body">
+              Outside internship in practical aspects of computing; e.g., systems programming, biomedical
+              computing, computer-aided instruction.
+              <strong>This course does not count toward the computer science major.</strong>
+              <br>prereq: none
+              <br>1-3 hrs
+              <br>1-3 cr.
+            </div>
+          </div>
+        </div>
+
+
+      </div><!--End Level 100 Course ADDDordion-->
+      <hr class="longer" id="level200">
+      <h3>Level 200 Courses</h3>
+
+      <div class="accordion" id="Level200Courses">
+      <!-- CSCI 23200 - Relational Databases and SQL Programming, with Lab -->
+      <div class="card">
+        <div class="card-header" id="heading12">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12" style="width:100%">
+              <div style="white-space:normal; text-align: left">
+                CSCI 23200 - Relational Databases and SQL Programming, with Lab
+              </div>
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#Level200Courses">
+          <div class="card-body">
+            <br><strong>GER</strong>
+            <br>3/B
+            <br>
+            An introduction to elementary database concepts and SQL, the standard language for communicating
+            with most database systems. A pragmatic course with an emphasis on skills acquisition; students
+            will learn how to get things done quickly and easily in a database environment.
+            <br>Required for computer science minors; open to computer science majors, but may not be
+            used toward the computer science major.
+            <br>prereq: CSCI 12700 or CSCI 13200
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 23300 - Programming Projects Seminar for Minors-->
+      <div class="card">
+        <div class="card-header" id="heading13">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+              <div style="white-space:normal">
+                CSCI 23300 - Programming Projects Seminar for Minors
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#Level200Courses">
+          <div class="card-body">
+            This course will serve as a capstone for the minor, affording students the opportunity
+            to write reasonably large and complex programs. Students will be expected to draw topics
+            for these programs from their majors or other areas of interest.
+            <strong>This course cannot be counted towards the CSCI major.</strong>
+            <br>prereq: CSCI 13300 and 23200 and a declared Computer Science Minor.
+            <br>2 hrs
+            <br>1 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 23500 - Software Analysis and Design II-->
+      <div class="card">
+        <div class="card-header" id="heading14"  >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+              <div style="white-space:normal; text-align: left">
+                CSCI 23500 - Software Analysis and Design II
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse14" class="collapse" aria-labelledby="heading14" data-parent="#Level200Courses">
+          <div class="card-body">
+            <strong>GER</strong>
+            <br>3/B
+            <br>
+            <br>Representation of information in computers, including process and data
+            abstraction techniques. Topics covered include static and dynamic storage
+            methods, lists, stacks, queues, binary trees, recursion, analysis of simple
+            algorithms and some searching and sorting algorithms.
+            <br>prereq: CSCI 13500, 15O00; MATH 15000
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--CSCI 26000 - Computer Architecture II-->
+      <div class="card">
+        <div class="card-header" id="heading15"  >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+              <div style="white-space:normal; text-align: left">
+                CSCI 26000 - Computer Architecture II
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse15" class="collapse" aria-labelledby="heading15" data-parent="#Level200Courses">
+          <div class="card-body">
+            <strong>GER</strong>
+            <br>3/B
+            <br>
+            <br>Organization of computer systems and design of system elements, including ALU,
+            memories and interfaces. Some assembly language programming.
+            devices.
+            <br>prereq: CSCI 13500, 16000 or 24500; MATH 15000
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!--CSCI 26500 - Computer Theory I -->
+      <div class="card">
+        <div class="card-header" id="heading16" >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+              <div style="white-space:normal; text-align: left">
+                CSCI 26500 - Computer Theory I
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse16" class="collapse" aria-labelledby="heading16" data-parent="#Level200Courses">
+          <div class="card-body">
+            <strong>GER</strong>
+            <br>3/B
+            <br>
+            <br>Recursion, regular sets, regular expressions, finite automata,
+            context-free grammars, pushdown automata.
+            <br>prereq: CSCI 16000 or 14500; MATH 15000
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 26700 - Microprocessors and Embedded Systems -->
+      <div class="card">
+        <div class="card-header" id="heading17" >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+              <div style="white-space:normal; text-align: left">
+                CSCI 26700 - Microprocessors and Embedded Systems
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse17" class="collapse" aria-labelledby="heading17" data-parent="#Level200Courses">
+          <div class="card-body">
+            <strong>GER</strong>
+            <br>3/B
+            <br>
+            <br>Students will assemble and program a small single board computer to control, or
+            simulate control of, some device.
+            <br>prereq: CSCI 13300 or 26000
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 27500 - Symbolic Logic -->
+      <div class="card">
+        <div class="card-header" id="heading18" >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+              <div style="white-space:normal; text-align: left">
+                CSCI 27500 - Symbolic Logic
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse18" class="collapse" aria-labelledby="heading18" data-parent="#Level200Courses">
+          <div class="card-body">
+            Sentential logic including symbolizations, truth-value tables, formal derivations.
+            Predicate logic including symbolizations, interpretations, and formal derivations.
+            <br>cross-listed MATH 27500, PHILO 27500
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="longer" id="level300">
+    <h3>Level 300 Courses</h3>
+    <div class="accordion" id="Level300Courses">
+      <!-- CSCI 33500 - Software Analysis and Design III -->
+      <div class="card">
+        <div class="card-header" id="heading19">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19" style="width:100%">
+              <div style="white-space:normal; text-align: left">
+                CSCI 33500 - Software Analysis and Design III
+              </div>
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapse19" class="collapse" aria-labelledby="heading19" data-parent="#Level300Courses">
+          <div class="card-body">
+            <br><strong>GER</strong>
+            <br>3/B
+            <br>
+            The design and analysis of various types of algorithms, including searching,
+            sorting, graph and tree algorithms. Problem-solving techniques. Worst and average
+            case behavior analysis and optimality. Polynomial time complexity classes and theory,
+            including NP-completeness.
+            <br>prereq: CSCI 23500, MATH 15500
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 34000 - Operating Systems -->
+      <div class="card">
+        <div class="card-header" id="heading20">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+              <div style="white-space:normal">
+                CSCI 34000 - Operating Systems
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse20" class="collapse" aria-labelledby="heading20" data-parent="#Level300Courses">
+          <div class="card-body">
+            <br><strong>GER</strong>
+            <br>3/B
+            <br>
+            Definition of functions and components of operating systems. Survey of
+            contemporary multiprocessing/ multiprogramming systems. Exploration of
+            systems programs: their design, internal structure and implementation.
+            <br>prereq: CSCI 23500, 26000 or 24500; MATH 15500, STAT 11300 or 21300
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 35000 - Artificial Intelligence -->
+      <div class="card">
+        <div class="card-header" id="heading21">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+              <div style="white-space:normal; text-align: left">
+                CSCI 35000 - Artificial Intelligence
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse21" class="collapse" aria-labelledby="heading21" data-parent="#Level300Courses">
+          <div class="card-body">
+            <strong>GER</strong>
+            <br>3/B
+            <br>
+            <br>A survey of artificial intelligence including search and control,
+            knowledge representation, logic and theorem proving, learning, natural
+            language and AI programming.
+            <br>prereq: CSCI 23500
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!--CSCI 35300 - Machine Learning -->
+      <div class="card">
+        <div class="card-header" id="heading22"  >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
+              <div style="white-space:normal; text-align: left">
+                CSCI 35300 - Machine Learning
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse22" class="collapse" aria-labelledby="heading22" data-parent="#Level300Courses">
+          <div class="card-body">
+            Machine learning is the subfield of artificial intelligence that learns to
+            predict and classify from data. This interdisciplinary course explores how
+            a machine learns to predict and classify.
+            <br>prereq: CSCI 23500 and CSCI 15000, or permission of the instructor
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!--CSCI 35500 - Introduction to Linear Programming  -->
+      <div class="card">
+        <div class="card-header" id="heading23" >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
+              <div style="white-space:normal; text-align: left">
+                CSCI 35500 - Introduction to Linear Programming
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse23" class="collapse" aria-labelledby="heading23" data-parent="#Level300Courses">
+          <div class="card-body">
+            <strong>GER</strong>
+            <br>3/B
+            <br>
+            <br>
+            Introduction to operations research and game theory. Simplex method;
+            inconsistency, redundancy and degeneracy problems; two-phase method;
+            duality; transportation problems.
+            <br>prereq: CSCI 23500; MATH 16000
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 36000 - Computer Architecture III  -->
+      <div class="card">
+        <div class="card-header" id="heading24" >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse24" aria-expanded="false" aria-controls="collapse24">
+              <div style="white-space:normal; text-align: left">
+                CSCI 36000 - Computer Architecture III
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse24" class="collapse" aria-labelledby="heading24" data-parent="#Level300Courses">
+          <div class="card-body">
+            <strong>GER</strong>
+            <br>3/B
+            <br>
+            <br>
+            High performance computer architectures, including massively parallel SIMD and MIMD
+            machines and distributed architectures.
+            <br>prereq: CSCI 26000 or 24500; MATH 15500
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 36500 - Computer Theory II  -->
+      <div class="card">
+        <div class="card-header" id="heading25" >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse25" aria-expanded="false" aria-controls="collapse25">
+              <div style="white-space:normal; text-align: left">
+                CSCI 36500 - Computer Theory II
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse25" class="collapse" aria-labelledby="heading25" data-parent="#Level300Courses">
+          <div class="card-body">
+            <strong>GER</strong>
+            <br>3/B
+            <br>
+            <br>
+            Turing machines, Post machines, Post’s theorem, Minsky’s theorem. Determinism and
+            non-determinism. Undecidability, the halting problem. Recursive function theory.
+            <br>prereq: CSCI 26500
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 37100 - Advanced Symbolic Logic -->
+      <div class="card">
+        <div class="card-header" id="heading26" >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse26" aria-expanded="false" aria-controls="collapse26">
+              <div style="white-space:normal; text-align: left">
+                CSCI 37100 - Advanced Symbolic Logic
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse26" class="collapse" aria-labelledby="heading26" data-parent="#Level300Courses">
+          <div class="card-body">
+            A survey of the central results and techniques of meta-logic, principally mathematical induction,
+            the soundness and completeness of theorems for first-order logic, the Skolem theorem and Church’s
+            theorem on undecidability.
+            <br>cross-listed: PHILO 37500
+            <br>prereq: PHILO 27500 or CSCI 27500 or MATH 27500
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 37200 - Logic and Computers -->
+      <div class="card">
+        <div class="card-header" id="heading27" >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse27" aria-expanded="false" aria-controls="collapse27">
+              <div style="white-space:normal; text-align: left">
+                CSCI 37200 - Logic and Computers
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse27" class="collapse" aria-labelledby="heading27" data-parent="#Level300Courses">
+          <div class="card-body">
+            This course introduces students to logic and its applications to modeling
+            both computer and real-world systems. Topics include various logics and their
+            applications to modeling systems and reasoning for artificial intelligence,
+            along with proof systems and tools for automated or semi-automated reasoning in these logics.
+            <br>cross-listed: MATH 37200 / PHILO 37200
+            <br>prereq: CSCI 15000 -or- PHILO/CSCI/MATH 27500
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 37700 - Non-classical Logic  -->
+      <div class="card">
+        <div class="card-header" id="heading28" >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse28" aria-expanded="false" aria-controls="collapse28">
+              <div style="white-space:normal; text-align: left">
+                CSCI 37700 - Non-classical Logic
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse28" class="collapse" aria-labelledby="heading28" data-parent="#Level300Courses">
+          <div class="card-body">
+            Logic is the systematic and precise study of reasoning—a topic of particular
+            interest to mathematicians and computer scientists as well as philosophers. Philosophers
+            have often functioned as the research and development wing of this collaboration, thinking
+            up and formalizing new logical techniques and systems designed to solve problems that can’t
+            be solved by traditional (a.k.a. “classical”) logic. This course will be an introduction to
+            some of these non-classical logics, their philosophical motivations, and some of their applications.
+            <br>cross-listed: PHILO 37700, MATH 37700
+            <br>prereq: PHILO 27500 or MATH 27500 or CSCI 27500
+            <br>3 hrs
+            <br>3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 39100-39300 - Independent Study in Computer Science   -->
+      <div class="card">
+        <div class="card-header" id="heading29" >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse29" aria-expanded="false" aria-controls="collapse29">
+              <div style="white-space:normal; text-align: left">
+                CSCI 39100-39300 - Independent Study in Computer Science
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse29" class="collapse" aria-labelledby="heading29" data-parent="#Level300Courses">
+          <div class="card-body">
+            <strong>GER</strong>
+            <br>3/B
+            <br>
+            <br>
+            Independent work, under the direction of a faculty member, in practical aspects of computing.
+            <strong><i>No more than a total of three Independent Study credits may be used toward the computer science major.</i></strong>
+            <br>prereq: declared Computer Science major, perm instr. and dept.
+            <br>1-3 hrs
+            <br>1-3 cr.
+          </div>
+        </div>
+      </div>
+
+      <!-- CSCI 39400-39500 - Topics in Computer Science   -->
+      <div class="card">
+        <div class="card-header" id="heading30" >
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse30" aria-expanded="false" aria-controls="collapse30">
+              <div style="white-space:normal; text-align: left">
+                CSCI 39400-39500 - Topics in Computer Science
+              </div>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse30" class="collapse" aria-labelledby="heading30" data-parent="#Level300Courses">
+          <div class="card-body">
+            <strong>GER</strong>
+            <br>3/B
+            <br>
+            <br>
+            An introduction to programming in Python, Perl and PHP.
+            <br>prereq: Prerequisites vary by topic and are announced prior to registration.
+            <br>2 hrs
+            <br>2 cr.
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <hr class="longer" id="level400">
+      <h3>Level 400 Courses</h3>
+      <div class="accordion" id="Level400Courses">
+        <!-- CSCI 40500 - Software Engineering -->
+        <div class="card">
+          <div class="card-header" id="heading31">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse31" aria-expanded="false" aria-controls="collapse31" style="width:100%">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 40500 - Software Engineering
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapse31" class="collapse" aria-labelledby="heading31" data-parent="#Level400Courses">
+            <div class="card-body">
+              <br><strong>GER</strong>
+              <br>3/B
+              <br>
+              Problems in large-scale software development including functional analysis of
+              information processing systems, system design concepts, timing estimates, documentation
+              and system testing.
+              <br>prereq: CSCI 33500
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 41500 - Data Communications and Networks  -->
+        <div class="card">
+          <div class="card-header" id="heading32">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse32" aria-expanded="false" aria-controls="collapse32" style="width:100%">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 41500 - Data Communications and Networks
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapse32" class="collapse" aria-labelledby="heading32" data-parent="#Level400Courses">
+            <div class="card-body">
+              <br><strong>GER</strong>
+              <br>3/B
+              <br>
+              A broad technical introduction to the components, protocols, organization, industry and regulatory issues that are
+              fundamental to the understanding of contemporary computer networks.
+              <br>prereq: CSCI 33500, 34000
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 43500 - Database Management  -->
+        <div class="card">
+          <div class="card-header" id="heading33">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse33" aria-expanded="false" aria-controls="collapse33" style="width:100%">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 43500 - Database Management
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapse33" class="collapse" aria-labelledby="heading33" data-parent="#Level400Courses">
+            <div class="card-body">
+              <br><strong>GER</strong>
+              <br>3/B
+              <br>
+              Hierarchical and network databases; theory of relational databases; normalization theory; query languages.
+              <br>prereq: CSCI 33500
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 45000 - Language Translation  -->
+        <div class="card">
+          <div class="card-header" id="heading34">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse34" aria-expanded="false" aria-controls="collapse34" style="width:100%">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 45000 - Language Translation
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapse34" class="collapse" aria-labelledby="heading34" data-parent="#Level400Courses">
+            <div class="card-body">
+              <br><strong>GER</strong>
+              <br>3/B
+              <br>
+              The theory and application of language recognition and analysis techniques, as
+              they pertain to both formal programming languages and to natural languages.
+              Includes lexical, syntactic and semantic analysis methods, as well as discussions
+              of efficient data representation.
+              <br>prereq: CSCI 26500, 33500
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 46000 - Advanced Programming Languages -->
+        <div class="card">
+          <div class="card-header" id="heading35">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse35" aria-expanded="false" aria-controls="collapse35" style="width:100%">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 46000 - Advanced Programming Languages
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapse35" class="collapse" aria-labelledby="heading35" data-parent="#Level400Courses">
+            <div class="card-body">
+              <br><strong>GER</strong>
+              <br>3/B
+              <br>
+              Survey course on the design and implementation of modern programming
+              languages. Includes object-oriented, functional, logic and concurrent / distributed
+              paradigms.
+              <br>prereq: CSCI 26500, 33500
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+        <!-- CSCI 49300 - Honors Seminar  -->
+        <div class="card">
+          <div class="card-header" id="heading36">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse36" aria-expanded="false" aria-controls="collapse36" style="width:100%">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 49300 - Honors Seminar
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapse36" class="collapse" aria-labelledby="heading36" data-parent="#Level400Courses">
+            <div class="card-body">
+              <br><strong>GER</strong>
+              <br>3/B
+              <br>
+              Topics include Unix systems programming, computer law, 3D vision, Windows programming,
+              neural networks, speech and language processing, fuzzy systems and other areas.
+              <br>prereq: Prerequisites vary with specific topics and are announced prior to registration.
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+
+        <!-- CSCI 49366 - UNIX System Programming  -->
+        <div class="card">
+          <div class="card-header" id="heading37">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse37" aria-expanded="false" aria-controls="collapse37" style="width:100%">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 49366 - UNIX System Programming
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapse37" class="collapse" aria-labelledby="heading37" data-parent="#Level400Courses">
+            <div class="card-body">
+              <br><strong>GER</strong>
+              <br>3/B
+              <br>
+              An introduction to the key components of the UNIX application programming interface,
+              including files, processes, terminal control, signals, interprocess communication,
+              the ncurses library, and multi-threading. Includes basic of the internal structure
+              of the UNIX operating system, and selected user-level utilities and commands for
+              efficient programming and working in UNIX.
+              <br>prereq or coreq: CSCI 23500, 34000
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+        <!-- CSCI 49369 - Big Data Technology -->
+        <div class="card">
+          <div class="card-header" id="heading38">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse38" aria-expanded="false" aria-controls="collapse38" style="width:100%">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 49369 - Big Data Technology
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapse38" class="collapse" aria-labelledby="heading38" data-parent="#Level400Courses">
+            <div class="card-body">
+              The increasing availability of big data has changed fundamental practices in business, health care,
+              policy making, and scientific research. The primary objective of this course is to enable students
+              to efficiently process, manage, reformulate, and mine an extremely large data set. This is an
+              interdisciplinary course that considers data from many different sources. Students are welcome
+              to work with their own interested domains in addition to the required ones.
+              <br>prereq: CSCI 13500 and CSCI 23200 or CSCI43500, or permission of the instructor
+              <br>3 hrs
+              <br>3 cr.
+            </div>
+          </div>
+        </div>
+        <!-- CSCI 49600-48000 - Supervised Research -->
+        <div class="card">
+          <div class="card-header" id="heading39">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse39" aria-expanded="false" aria-controls="collapse39" style="width:100%">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 49600-48000 - Supervised Research
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapse39" class="collapse" aria-labelledby="heading39" data-parent="#Level400Courses">
+            <div class="card-body">
+              Supervised work under the direction of a faculty member on an original research project.
+              Although student-initiated projects are acceptable, in most cases students will be expected
+              to work within a faculty member’s active research area. These courses are repeatable.
+              <strong><i>No more than a total of nine (9) Supervised Research credits may be counted toward the computer science major.</i></strong>
+              <br>prereq: Declared Computer Science major, perm instr. and dept.
+              <br>1-3 hrs
+              <br>1-3 cr.
+            </div>
+          </div>
+        </div>
+        <!-- CSCI 49900 - Advanced Applications: A Capstone for Majors  -->
+        <div class="card">
+          <div class="card-header" id="heading40">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse40" aria-expanded="false" aria-controls="collapse40" style="width:100%">
+                <div style="white-space:normal; text-align: left">
+                  CSCI 49900 - Advanced Applications: A Capstone for Majors
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapse40" class="collapse" aria-labelledby="heading40" data-parent="#Level400Courses">
+            <div class="card-body">
+              <br><strong>GER</strong>
+              <br>3/B
+              <br>
+              A chance for computer science majors to test their mettle on major projects.
+              Working in small groups they will implement systems that involve at least two
+              platforms running programs written in at least three languages.
+              <br>prereq: All non-elective courses in Computer Science required for graduation or permission of instructor.
+              <br>4 hrs
+              <br>4 cr.
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="longer">
+
+    </div>
+
+  <div class="col-sm-3">
+  </div>
+  </div>
+  </body>
+</html>

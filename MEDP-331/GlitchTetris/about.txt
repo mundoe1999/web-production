@@ -1,0 +1,5 @@
+This is the midterm assignment for Web Production 2. <br>
+For this assignment, I have decided to recreate a classic game, Tetris. However, rather than iterating through it, I have decided to make the game full of glitches and bugs. If you wish to have the game fixed, then you are free to donate to PayPal so that maybe one day it can be fixed. <br>
+This is how games are today in our current generation. Broken piles of shiny metals that attracts the attention on anyone that wishes to come and see. They then try to lure you and try to take your money from you, because they prefer making profit rather than quality games. <br>
+
+Don't worry, THE UGLINESS IS INTENTIONAL!

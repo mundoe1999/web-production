@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Squada+One');
+
+body {
+  background-color: #C3D8DD;
+  font-family: 'Bitter', serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.navbar-brand{
+  color: #fff;
+  font-family: 'Squada One', cursive;
+  font-size: 2.0em;
+  letter-spacing: 1px;
+
+}
+
+.nav-item{
+  font-size: 1.2em;
+}
+
+.navbar{
+  border-bottom: 2px solid;
+  background-color: #5F3394;
+  z-index: 10000;
+}
+
+.dropdown-menu{
+  background-color: #AA82E0;
+
+}
+.abar{
+  border-bottom: 2px solid;
+  border-color: #914FE2;
+
+}
+
+.row {
+  margin:auto;
+
+}
+
+.longer{
+
+  padding-bottom: 4em;
+}
+
+.jumbotron{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #A6D1DB;
+
+}
+.card-header{
+  background-color: #A6D1DB;
+}
+
+.container-fluid{
+  margin: auto;
+}
+
+iframe{
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+.img-header{
+  width:100%;
+  height: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  border: 5px solid;
+  border-top: 3px solid;
+  margin-bottom: 2em;
+
+}
